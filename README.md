@@ -1,7 +1,6 @@
 # Fake-Detect
 
-
-#Overview:
+# Overview
 Identifying public misinformation is a complicated and challenging task, and with the growth of the internet the spread of misinformation happens too quickly on a large scale.
 
 To rectify this problem several people have come up with their solutions -  Most of them being crowdsourced like https://www.altnews.in/ or BS Detector. They are web platforms dedicated to verifying and debunking the scourge of fake news in circulation.
@@ -19,13 +18,13 @@ Number of volunteers is very small
 Classifying fake news can be tough - https://miguelmalvarez.com/2017/03/23/how-can-machine-learning-and-ai-help-solving-the-fake-news-problem/
 Read the above article to understand different types of fake news
 
-#Our Solution:
+# Our Solution:
 Our machine learning model is made to help the fact checkers and not replace them. It reduces the time to to check articles by giving insights to the fact checker as to what level of scrutiny it should use for the particular article.
 
-#Technical details:
+# Technical details:
 NOTE: perceptron has been replaced with - SGDClassifier (to reduce Out of memory error) The entire project can be categorized under two words - Stance Detection Stance detection can be defined as detecting whether the author of a piece of text is in favor of the given target or against it. Our stance detection model is an end to end model with lexical and feature extractors that feed the multi layer perceptron. In machine learning, the perceptron is an algorithm for supervised learning of binary classifiers. It is a type of linear classifier. To understand a little better on how a perceptron works(kinda) read a little about Naive Bayes- a probabilistic formula that learns and produces an output based on the inputs given.
 
-#Working:
+# Working:
 Dataset used :
 https://www.kaggle.com/mrisdal/fake-news/data
 
