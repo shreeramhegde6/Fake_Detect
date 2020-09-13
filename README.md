@@ -3,7 +3,7 @@
 # Overview
 Identifying public misinformation is a complicated and challenging task, and with the growth of the internet the spread of misinformation happens too quickly on a large scale.
 
-To rectify this problem several people have come up with their solutions -  Most of them being crowdsourced like https://www.altnews.in/ or BS Detector. They are web platforms dedicated to verifying and debunking the scourge of fake news in circulation.
+To rectify this problem several people have come up with their solutions -  Most of them being crowdsourced like altnews or BS Detector. They are web platforms dedicated to verifying and debunking the scourge of fake news in circulation.
 
 The entire process involves the following:
 
