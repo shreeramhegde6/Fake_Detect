@@ -37,7 +37,7 @@ Since we cannot feed the words directly to the machine, we need to vectorize it.
 
 We tokenize the headline and body texts as well as derive the relevant vectors. For the TF(term frequencies)vectors, we extract a vocabulary of around 5,000 most frequent words in the training set and exclude stop words(from nltk.corpus). The same is done for the Inverse word freq vectors. The TF vectors and the TF-IDF cosine similarity are concatenated in a feature vector and then fed into the classifier. 2. Train The features are then fed to the machine with labels of biased and not fake. 3. Predict
 
-ALGO:
+# ALGORITHM:
 
 From the frontend app take the following as input
 
